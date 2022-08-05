@@ -1,0 +1,22 @@
+{
+  "name": "MSPasteBoard",
+  "version": "0.1.0",
+  "summary": "A short description of MSPasteBoard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Marshal/MSPasteBoard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marshal": "ys.tang@trip.com"
+  },
+  "source": {
+    "git": "https://github.com/Marshal/MSPasteBoard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MSPasteBoard/Classes/**/*"
+}

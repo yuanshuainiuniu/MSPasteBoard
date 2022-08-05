@@ -1,0 +1,16 @@
+PODS:
+  - MSPasteBoard (0.1.0)
+
+DEPENDENCIES:
+  - MSPasteBoard (from `../`)
+
+EXTERNAL SOURCES:
+  MSPasteBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSPasteBoard: 7480963624c15bef0ec7897aa061a4768fbc1a03
+
+PODFILE CHECKSUM: 65918b05247b40ca44bc2d23b52243189f41a93f
+
+COCOAPODS: 1.10.1
