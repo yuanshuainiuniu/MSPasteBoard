@@ -9,16 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'MSPasteBoard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MSPasteBoard.'
+  s.summary          = 'M1芯片下xcode模拟器使用粘贴板'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  解决，M1芯片下，模拟器在排查arm64架构（为兼容一些老框架）后，粘贴板无法互通问题
                        DESC
 
   s.homepage         = 'https://github.com/Marshal/MSPasteBoard'

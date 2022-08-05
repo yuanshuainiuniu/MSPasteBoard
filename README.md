@@ -8,7 +8,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+解决，M1芯片下，模拟器在排查arm64架构（为兼容一些老框架）后，粘贴板无法互通问题
 ## Requirements
 
 ## Installation
