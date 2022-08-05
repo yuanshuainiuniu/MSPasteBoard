@@ -1,5 +1,5 @@
 PODS:
-  - MSPasteBoard (0.1.0)
+  - MSPasteBoard (0.1.1)
 
 DEPENDENCIES:
   - MSPasteBoard (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MSPasteBoard: 7480963624c15bef0ec7897aa061a4768fbc1a03
+  MSPasteBoard: 2176cd57d552773f0e5a1aa6e0778178f4e43de2
 
 PODFILE CHECKSUM: 65918b05247b40ca44bc2d23b52243189f41a93f
 

@@ -10,67 +10,66 @@
 		1DDA5C63830A2580C537E29D873D3B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		38A05D9336B0EC6E5B81044BF992F2DF /* Pods-MSPasteBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FFA061B652BBE925799F9606FC5E37 /* Pods-MSPasteBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		535A08AD8803BD912EB37753F6E39AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		69FF485ACDFAE9C6E59B934D08C7B72E /* UIResponder+MS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C25D04C3F760C8BFA2D9170E2A17F5 /* UIResponder+MS.m */; };
+		69FF485ACDFAE9C6E59B934D08C7B72E /* UIResponder+MS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6322A6D0E0437BEF92D732D6B4EC06 /* UIResponder+MS.m */; };
 		956C18ABC18CEDE6ADE06D3DA22F9A64 /* Pods-MSPasteBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F6543FAC6A1038393F68B27E4094E /* Pods-MSPasteBoard_Tests-dummy.m */; };
-		A2D68E3005C3079E53630F6121F73E96 /* UIResponder+MS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A00BAF30CD7D630DA7D863FAEE4B398 /* UIResponder+MS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A632CE616C531C50325BB9A046748C0C /* MSPasteBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E910A8904A2FAA6022B3765B1F598145 /* MSPasteBoard-dummy.m */; };
+		A2D68E3005C3079E53630F6121F73E96 /* UIResponder+MS.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DB496B6F353E05B1D4B950E3F55A24 /* UIResponder+MS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A632CE616C531C50325BB9A046748C0C /* MSPasteBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0688C06496A24C02FEB14BCAD39645D2 /* MSPasteBoard-dummy.m */; };
 		B0267822D051F23AF603DF522120133B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DBE1E8ABEC15F3D721F0208A24ED859D /* MSPasteBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3251C833531C2D2C45960F6EC1FA5A /* MSPasteBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE1E8ABEC15F3D721F0208A24ED859D /* MSPasteBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C529DFE62FBD2C53E0131F1646B22B /* MSPasteBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F173109F4B199D61CB9479AA09AA244B /* Pods-MSPasteBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC1E5EC97A1E2F11D3F288714EE26A3 /* Pods-MSPasteBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB5B162B075DD7DAFCDBB67475E9E579 /* Pods-MSPasteBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C20FEEAD9BBA6EE0F30F0FD032F78E /* Pods-MSPasteBoard_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EFD2CDFE7C16D30089B9DBDB62826F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA49EC6097B1F9FE8FF762767F15FCA7;
-			remoteInfo = MSPasteBoard;
-		};
-		A3970F7313EC1E2C7BE501CB5C3ECC5B /* PBXContainerItemProxy */ = {
+		434513295A19041883F31299A98EC044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9E88C57BD1CFB4E0A5345DC3BCEAAB84;
 			remoteInfo = "Pods-MSPasteBoard_Example";
 		};
+		AA82796369A5CB4ADF61D209C2620CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA49EC6097B1F9FE8FF762767F15FCA7;
+			remoteInfo = MSPasteBoard;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08CE08F726C5F7D722074BB1795DF283 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0688C06496A24C02FEB14BCAD39645D2 /* MSPasteBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPasteBoard-dummy.m"; sourceTree = "<group>"; };
 		0AFB655BD455E91028F458B449ECCC71 /* Pods-MSPasteBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPasteBoard_Tests-Info.plist"; sourceTree = "<group>"; };
+		15DBF76F2B841151C632B02C6292F539 /* MSPasteBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPasteBoard-prefix.pch"; sourceTree = "<group>"; };
+		15E2A71F96E1675FC2CA939369447AFB /* MSPasteBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPasteBoard.debug.xcconfig; sourceTree = "<group>"; };
+		208D9F4AEB701FD17976C713896F9084 /* MSPasteBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSPasteBoard-Info.plist"; sourceTree = "<group>"; };
 		234121A3F51B0EB06D9676DFBF589FE3 /* Pods-MSPasteBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSPasteBoard_Example.modulemap"; sourceTree = "<group>"; };
-		2A3251C833531C2D2C45960F6EC1FA5A /* MSPasteBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPasteBoard-umbrella.h"; sourceTree = "<group>"; };
 		32D1AFCBD3DCDCF44BB0708004D2DBE3 /* Pods-MSPasteBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPasteBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D0305C6869FC8C1B071C1EF8FD08337 /* MSPasteBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSPasteBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DB496B6F353E05B1D4B950E3F55A24 /* UIResponder+MS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+MS.h"; path = "MSPasteBoard/Classes/UIResponder+MS.h"; sourceTree = "<group>"; };
+		3D0305C6869FC8C1B071C1EF8FD08337 /* MSPasteBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSPasteBoard.framework; path = MSPasteBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C529DFE62FBD2C53E0131F1646B22B /* MSPasteBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPasteBoard-umbrella.h"; sourceTree = "<group>"; };
 		59C20FEEAD9BBA6EE0F30F0FD032F78E /* Pods-MSPasteBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPasteBoard_Example-dummy.m"; sourceTree = "<group>"; };
-		6A00BAF30CD7D630DA7D863FAEE4B398 /* UIResponder+MS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+MS.h"; path = "MSPasteBoard/Classes/UIResponder+MS.h"; sourceTree = "<group>"; };
-		6C36491932577C0F0A8B7284D37AD104 /* MSPasteBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSPasteBoard.modulemap; sourceTree = "<group>"; };
+		62132C7FEA2407CE1328EAE1D8184355 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6D14DCEF5DC6E9242FAD596AB10504EE /* Pods-MSPasteBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPasteBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		760A4CF9ACCD3F88FF368BD955F2DB5C /* Pods-MSPasteBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPasteBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C6322A6D0E0437BEF92D732D6B4EC06 /* UIResponder+MS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+MS.m"; path = "MSPasteBoard/Classes/UIResponder+MS.m"; sourceTree = "<group>"; };
 		919F6543FAC6A1038393F68B27E4094E /* Pods-MSPasteBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPasteBoard_Tests-dummy.m"; sourceTree = "<group>"; };
-		96C25D04C3F760C8BFA2D9170E2A17F5 /* UIResponder+MS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+MS.m"; path = "MSPasteBoard/Classes/UIResponder+MS.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E03BB3379BBE1144AD7005368FC25D0 /* Pods_MSPasteBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSPasteBoard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AB92E9573DB1146473D561DCB57595 /* MSPasteBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSPasteBoard.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E03BB3379BBE1144AD7005368FC25D0 /* Pods_MSPasteBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPasteBoard_Example.framework; path = "Pods-MSPasteBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A136BCE0FBCB93F8F67CCDBE8ACAE641 /* Pods-MSPasteBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPasteBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4925678CED073E253A17535ADC409DE /* MSPasteBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPasteBoard.release.xcconfig; sourceTree = "<group>"; };
 		A9D86D3E44F835D70B39BD313B33A1C4 /* Pods-MSPasteBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPasteBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B69B5B5E8D40BBC13146AD800B3F311B /* Pods-MSPasteBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPasteBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBCFDC75FA3EF5151E51A61D526E6188 /* MSPasteBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPasteBoard-prefix.pch"; sourceTree = "<group>"; };
-		CBD37DD6E38DA68A7438B258B6D386AD /* MSPasteBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSPasteBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD2300BACDCB4A92DD510EBD68590307 /* Pods-MSPasteBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSPasteBoard_Tests.modulemap"; sourceTree = "<group>"; };
-		CDBD4C1E99BDC8D43B3681212D3C3823 /* MSPasteBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSPasteBoard-Info.plist"; sourceTree = "<group>"; };
+		D1E63B08103602C2FF85FEBCC8C89F5F /* MSPasteBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSPasteBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D479305C6B0C35FD5F93DB8DB7B1464E /* Pods-MSPasteBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSPasteBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D5043C16CD7BBFDA66476D08D10BFDDF /* Pods-MSPasteBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPasteBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2FFA061B652BBE925799F9606FC5E37 /* Pods-MSPasteBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPasteBoard_Example-umbrella.h"; sourceTree = "<group>"; };
-		E758238CA5C92AEA4A0BB72EC14FCA6E /* Pods_MSPasteBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSPasteBoard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E910A8904A2FAA6022B3765B1F598145 /* MSPasteBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPasteBoard-dummy.m"; sourceTree = "<group>"; };
+		E758238CA5C92AEA4A0BB72EC14FCA6E /* Pods_MSPasteBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSPasteBoard_Tests.framework; path = "Pods-MSPasteBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC3C88C4DB6DB3D8C35A139C4281A80 /* Pods-MSPasteBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPasteBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EEC1E5EC97A1E2F11D3F288714EE26A3 /* Pods-MSPasteBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSPasteBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EFAA7749171151C556AD321321CB708B /* MSPasteBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPasteBoard.debug.xcconfig; sourceTree = "<group>"; };
-		F3FB914C289CCDCD00DE5762 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FACED41EB4F780F290DCF55B59BF9A09 /* MSPasteBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPasteBoard.release.xcconfig; sourceTree = "<group>"; };
 		FBF689670DE6CB1A5E0F80A88F86F71F /* Pods-MSPasteBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPasteBoard_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +101,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C37A801D3827D6534D2A895F44BE12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AB92E9573DB1146473D561DCB57595 /* MSPasteBoard.modulemap */,
+				0688C06496A24C02FEB14BCAD39645D2 /* MSPasteBoard-dummy.m */,
+				208D9F4AEB701FD17976C713896F9084 /* MSPasteBoard-Info.plist */,
+				15DBF76F2B841151C632B02C6292F539 /* MSPasteBoard-prefix.pch */,
+				50C529DFE62FBD2C53E0131F1646B22B /* MSPasteBoard-umbrella.h */,
+				15E2A71F96E1675FC2CA939369447AFB /* MSPasteBoard.debug.xcconfig */,
+				FACED41EB4F780F290DCF55B59BF9A09 /* MSPasteBoard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSPasteBoard";
+			sourceTree = "<group>";
+		};
 		13B403C65A4110C189A5F13CE48162AE /* Pods-MSPasteBoard_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,31 +132,13 @@
 			path = "Target Support Files/Pods-MSPasteBoard_Tests";
 			sourceTree = "<group>";
 		};
-		2E85F5A1D601FD175FB127910BBF0AEA /* MSPasteBoard */ = {
+		3CD52EE6B87D1ECB2CDBFFC68F0E5A2F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6A00BAF30CD7D630DA7D863FAEE4B398 /* UIResponder+MS.h */,
-				96C25D04C3F760C8BFA2D9170E2A17F5 /* UIResponder+MS.m */,
-				AE34C1CBB4BC3B48B92EAE5D1E527414 /* Pod */,
-				31094862947D2E290BC52084436A944A /* Support Files */,
+				62132C7FEA2407CE1328EAE1D8184355 /* LICENSE */,
+				D1E63B08103602C2FF85FEBCC8C89F5F /* MSPasteBoard.podspec */,
 			);
-			name = MSPasteBoard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		31094862947D2E290BC52084436A944A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C36491932577C0F0A8B7284D37AD104 /* MSPasteBoard.modulemap */,
-				E910A8904A2FAA6022B3765B1F598145 /* MSPasteBoard-dummy.m */,
-				CDBD4C1E99BDC8D43B3681212D3C3823 /* MSPasteBoard-Info.plist */,
-				CBCFDC75FA3EF5151E51A61D526E6188 /* MSPasteBoard-prefix.pch */,
-				2A3251C833531C2D2C45960F6EC1FA5A /* MSPasteBoard-umbrella.h */,
-				EFAA7749171151C556AD321321CB708B /* MSPasteBoard.debug.xcconfig */,
-				A4925678CED073E253A17535ADC409DE /* MSPasteBoard.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSPasteBoard";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		471FCEF6C45F4C31D4652E80B27F8032 /* Pods-MSPasteBoard_Example */ = {
@@ -189,20 +185,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE34C1CBB4BC3B48B92EAE5D1E527414 /* Pod */ = {
+		C9E9306B797AB615B59BE98C006F7FB4 /* MSPasteBoard */ = {
 			isa = PBXGroup;
 			children = (
-				F3FB914C289CCDCD00DE5762 /* README.md */,
-				08CE08F726C5F7D722074BB1795DF283 /* LICENSE */,
-				CBD37DD6E38DA68A7438B258B6D386AD /* MSPasteBoard.podspec */,
+				36DB496B6F353E05B1D4B950E3F55A24 /* UIResponder+MS.h */,
+				7C6322A6D0E0437BEF92D732D6B4EC06 /* UIResponder+MS.m */,
+				3CD52EE6B87D1ECB2CDBFFC68F0E5A2F /* Pod */,
+				05C37A801D3827D6534D2A895F44BE12 /* Support Files */,
 			);
-			name = Pod;
+			name = MSPasteBoard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CB13DEE34E2CD8334D8CB9F2281EACFA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E85F5A1D601FD175FB127910BBF0AEA /* MSPasteBoard */,
+				C9E9306B797AB615B59BE98C006F7FB4 /* MSPasteBoard */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -269,7 +267,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7C08F64F8B3FF306DEB073123906747B /* PBXTargetDependency */,
+				3A26744D1D003F13E343FAA7E43C3AE3 /* PBXTargetDependency */,
 			);
 			name = "Pods-MSPasteBoard_Tests";
 			productName = "Pods-MSPasteBoard_Tests";
@@ -288,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A9720FEA7A8833BF7948FBA7A13D0942 /* PBXTargetDependency */,
+				C01B1EE92CDB8915AB5AB92197EE09B7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MSPasteBoard_Example";
 			productName = "Pods-MSPasteBoard_Example";
@@ -395,24 +393,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C08F64F8B3FF306DEB073123906747B /* PBXTargetDependency */ = {
+		3A26744D1D003F13E343FAA7E43C3AE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MSPasteBoard_Example";
 			target = 9E88C57BD1CFB4E0A5345DC3BCEAAB84 /* Pods-MSPasteBoard_Example */;
-			targetProxy = A3970F7313EC1E2C7BE501CB5C3ECC5B /* PBXContainerItemProxy */;
+			targetProxy = 434513295A19041883F31299A98EC044 /* PBXContainerItemProxy */;
 		};
-		A9720FEA7A8833BF7948FBA7A13D0942 /* PBXTargetDependency */ = {
+		C01B1EE92CDB8915AB5AB92197EE09B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSPasteBoard;
 			target = FA49EC6097B1F9FE8FF762767F15FCA7 /* MSPasteBoard */;
-			targetProxy = 9EFD2CDFE7C16D30089B9DBDB62826F0 /* PBXContainerItemProxy */;
+			targetProxy = AA82796369A5CB4ADF61D209C2620CA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		099BDBD9BA5F4802B4F0719D1F8EC526 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4925678CED073E253A17535ADC409DE /* MSPasteBoard.release.xcconfig */;
+			baseConfigurationReference = FACED41EB4F780F290DCF55B59BF9A09 /* MSPasteBoard.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -497,7 +495,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -539,7 +538,7 @@
 		};
 		B45E71D497FB9EF523A2D8ABB416D699 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFAA7749171151C556AD321321CB708B /* MSPasteBoard.debug.xcconfig */;
+			baseConfigurationReference = 15E2A71F96E1675FC2CA939369447AFB /* MSPasteBoard.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
