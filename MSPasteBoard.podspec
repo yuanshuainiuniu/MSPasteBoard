@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSPasteBoard'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'M1芯片下xcode模拟器使用粘贴板'
 
 
