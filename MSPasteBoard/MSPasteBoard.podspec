@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSPasteBoard'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'M1芯片下xcode模拟器使用粘贴板'
 
 
@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   解决，M1芯片下，模拟器在排查arm64架构（为兼容一些老框架）后，粘贴板无法互通问题
                        DESC
 
-  s.homepage         = 'https://github.com/Marshal/MSPasteBoard'
+  s.homepage         = 'https://github.com/yuanshuainiuniu/MSPasteBoard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Marshal' => 'ys.tang@trip.com' }
-  s.source           = { :git => 'https://github.com/Marshal/MSPasteBoard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yuanshuainiuniu/MSPasteBoard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
